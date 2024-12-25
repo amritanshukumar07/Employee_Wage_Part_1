@@ -3,7 +3,7 @@ import java.util.List;
 import java.util.Random;
 
 class EmployeeWageBuilder implements EmployeeWageBuilderInterface{
-    public List<Company>companies;
+    public ArrayList<Company>companies;
 
     public EmployeeWageBuilder(){
         companies= new ArrayList<>();
